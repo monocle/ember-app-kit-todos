@@ -1,6 +1,7 @@
 import Resolver from 'resolver';
 import registerComponents from 'appkit/utils/register_components';
 import editTodoView from 'appkit/views/edit_todo';
+import setupEIDB from 'appkit/utils/setup_eidb';
 
 var App = Ember.Application.extend({
   LOG_ACTIVE_GENERATION: true,
@@ -16,6 +17,13 @@ App.initializer({
   name: 'Register Components',
   initialize: function(container, application) {
     registerComponents(container);
+  }
+});
+
+App.initializer({
+  name: 'Setup EasyIndexedDB',
+  initialize: function(container, application) {
+    setupEIDB();
   }
 });
 
