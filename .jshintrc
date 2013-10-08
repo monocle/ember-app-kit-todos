@@ -7,7 +7,9 @@
     "Ember",
     "Em",
     "DS",
-    "$"
+    "$",
+    "EIDB",
+    "console"
   ],
   "node" : false,
   "browser" : false,

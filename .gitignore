@@ -9,6 +9,8 @@
 /vendor/*
 !/vendor/almond.js
 !/vendor/resolver.js
+!/vendor/EasyIndexedDB.js
+!/vendor/IndexedDBShim.js
 
 # misc
 /.sass-cache
