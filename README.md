@@ -1,24 +1,7 @@
-# ember-app-kit-todos [![Build Status](https://travis-ci.org/stefanpenner/ember-app-kit-todos.png?branch=master)](https://travis-ci.org/stefanpenner/ember-app-kit-todos)
+# ember-app-kit-todos using IndexedDB
 
-ember-app-kit-todos is the Emberjs Todos using Ember App Kit.
+* [ember-app-kit-todos](https://github.com/stefanpenner/ember-app-kit-todos)
+* [EasyIndexedDB.js](https://github.com/ebryn/EasyIndexedDB): Provides a Promise based IndexedDB wrapper
+* [IndexedDBShim.js](https://github.com/axemclion/IndexedDBShim): WebSQL shim for browsers that don't implement IndexedDB
 
-## Try ember-app-kit-todos
-
-```sh
-npm install
-grunt test:server
-# navigate to: http://localhost:8000
-```
-## Future Goals
-
-* unit tests
-* acceptance tests
-* docs
-
-## Related
-
-* [bower](https://github.com/bower/bower)
-* [grunt](https://github.com/gruntjs/grunt)
-* [Emberjs](https://github.com/emberjs/ember.js)
-* [Ember Data](https://github.com/emberjs/data)
-* [Ember App Kit](https://github.com/stefanpenner/ember-app-kit)
+Try the app out [here](http://monocle.github.io/ember-app-kit-todos/). Use your browser's console/develper tools to inspect the database.
